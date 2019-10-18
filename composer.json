@@ -1,0 +1,20 @@
+{
+  "name": "liagkos/yuboto-sms",
+  "description": "Yuboto SMS API consumer",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Athanasios (Nasos) Liagkos",
+      "email": "me@nasos.work"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "6.3.3",
+    "nesbot/carbon": "2.25.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": { "Liagkos\\SMS\\Yuboto\\": "src/" }
+  }
+}
