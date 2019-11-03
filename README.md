@@ -5,6 +5,11 @@
 * Using [Guzzle](https://github.com/guzzle/guzzle) for communication
 * Using [Carbon](https://github.com/briannesbitt/Carbon) for date manipulation
 
+## Why did I write this
+I wanted to use Guzzle, and I wanted to use IDE autocomplete
+capabilities. There is no other reason, API is very simple and easy to
+use, even without my library.
+
 ## Installation
 
 Install the package using Composer:
