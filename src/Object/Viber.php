@@ -13,7 +13,7 @@ class Viber
      * if Twofa {pin_code} placeholder mandatory
      * alone|button|button+image
      *
-    /*
+     */
     public $text;
 
     /** @var integer 15-86400 (default) in seconds*/
