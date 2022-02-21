@@ -11,7 +11,7 @@
   ],
   "require": {
     "guzzlehttp/guzzle": "6.3.3",
-    "nesbot/carbon": "2.25.2",
+    "nesbot/carbon": "1.39.1",
     "ext-json": "*"
   },
   "autoload": {
