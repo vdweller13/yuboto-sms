@@ -22,7 +22,7 @@ use Liagkos\SMS\Yuboto\Object\VerifyPinResponse;
 
 class Response
 {
-    public static function Send($response) : SendResponse
+    public static function Send($response)
     {
         $parsed = new SendResponse();
 
@@ -48,7 +48,7 @@ class Response
         return $parsed;
     }
 
-    public static function Dlr($response) : DlrResponse
+    public static function Dlr($response)
     {
         $parsed = new DlrResponse();
 
@@ -77,7 +77,7 @@ class Response
         return $parsed;
     }
 
-    public static function Cost($response) : CostResponse
+    public static function Cost($response)
     {
         $parsed = new CostResponse();
 
@@ -103,7 +103,7 @@ class Response
         return $parsed;
     }
 
-    public static function CostDetails($response) : CostDetailsResponse
+    public static function CostDetails($response)
     {
         $parsed = new CostDetailsResponse();
 
@@ -129,7 +129,7 @@ class Response
         return $parsed;
     }
 
-    public static function Balance($response) : BalanceResponse
+    public static function Balance($response)
     {
         $parsed = new BalanceResponse();
 
@@ -140,7 +140,7 @@ class Response
         return $parsed;
     }
 
-    public static function Cancel($response) : CancelResponse
+    public static function Cancel($response)
     {
         $parsed = new CancelResponse();
 
@@ -151,7 +151,7 @@ class Response
         return $parsed;
     }
 
-    public static function CreateKey($response) : CreateKeyResponse
+    public static function CreateKey($response)
     {
         $parsed = new CreateKeyResponse();
 
@@ -162,7 +162,7 @@ class Response
         return $parsed;
     }
 
-    public static function VerifyPin($response) : VerifyPinResponse
+    public static function VerifyPin($response)
     {
         $parsed = new VerifyPinResponse();
 
@@ -173,7 +173,7 @@ class Response
         return $parsed;
     }
 
-    public static function DlrPhonenumber($response) : DlrPhonenumberResponse
+    public static function DlrPhonenumber($response)
     {
         $parsed = new DlrPhonenumberResponse();
 

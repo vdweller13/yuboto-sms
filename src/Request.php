@@ -13,7 +13,7 @@ class Request
     private static $base_uri = 'https://services.yuboto.com';
     private static $omni     = '/omni/v1/';
 
-    public static function exec(string $apiKey, $command, $params = null, string $method = 'post') : array
+     public static function exec($apiKey, $command, $params = null, $method = 'post')
     {
         $headers = [
             'content-type'  => 'application/json',
